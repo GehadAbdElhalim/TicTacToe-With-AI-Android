@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:weightSum="6"
+    tools:context="com.example.tictactoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/easy"
+            android:text="easy"
+            android:soundEffectsEnabled="true"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/medium"
+            android:text="medium"
+            android:soundEffectsEnabled="true"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/hard"
+            android:text="hard"
+            android:soundEffectsEnabled="true"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:soundEffectsEnabled="true"
+            android:textSize="52dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/con"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="true"
+            android:text="Again ?"
+            android:textSize="24dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>
